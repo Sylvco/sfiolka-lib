@@ -60,7 +60,7 @@ class FileSystem
      *
      * @return false|int
      */
-    public function filePutContents(string $path, string $content): bool|int
+    public function filePutContents(string $path, string $content)
     {
         return file_put_contents($path, $content);
     }
